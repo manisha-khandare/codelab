@@ -20,6 +20,7 @@ class MainActivity : AppCompatActivity() {
         val countButton: Button = findViewById(R.id.countup_button)
         countButton.setOnClickListener { countUp() }
 
+        // Dice image
         diceImage = findViewById(R.id.dice_image)
     }
 
